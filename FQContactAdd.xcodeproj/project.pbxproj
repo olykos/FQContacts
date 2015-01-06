@@ -15,6 +15,8 @@
 		CE3D50291A55F22A0059FA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3D50281A55F22A0059FA0C /* Images.xcassets */; };
 		CE3D502C1A55F22A0059FA0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3D502A1A55F22A0059FA0C /* LaunchScreen.xib */; };
 		CE3D50381A55F22A0059FA0C /* FQContactAddTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3D50371A55F22A0059FA0C /* FQContactAddTests.m */; };
+		CE3D50431A55F2370059FA0C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3D50411A55F2370059FA0C /* AddressBook.framework */; };
+		CE3D50441A55F2370059FA0C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3D50421A55F2370059FA0C /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		CE3D50311A55F22A0059FA0C /* FQContactAddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQContactAddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3D50361A55F22A0059FA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3D50371A55F22A0059FA0C /* FQContactAddTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQContactAddTests.m; sourceTree = "<group>"; };
+		CE3D50411A55F2370059FA0C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CE3D50421A55F2370059FA0C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3D50431A55F2370059FA0C /* AddressBook.framework in Frameworks */,
+				CE3D50441A55F2370059FA0C /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,7 @@
 		CE3D500C1A55F22A0059FA0C = {
 			isa = PBXGroup;
 			children = (
+				CE3D50451A55F23E0059FA0C /* Frameworks */,
 				CE3D50171A55F22A0059FA0C /* FQContactAdd */,
 				CE3D50341A55F22A0059FA0C /* FQContactAddTests */,
 				CE3D50161A55F22A0059FA0C /* Products */,
@@ -120,6 +127,15 @@
 				CE3D50361A55F22A0059FA0C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3D50451A55F23E0059FA0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D50411A55F2370059FA0C /* AddressBook.framework */,
+				CE3D50421A55F2370059FA0C /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
